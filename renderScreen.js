@@ -12,7 +12,7 @@ var config = {
     fonteCor: "black",
     numeroAlvos: 3,
     alvosRaio: 30,
-    tempo: 10,
+    tempo: 30,
     audio: true
 }
 

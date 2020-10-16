@@ -12,11 +12,11 @@ function mudarPosicao(circuloId, x, y) {
     switch (oqueRenderizar){
         case "start":
 
-            /*oqueRenderizar = "alvos"
+            oqueRenderizar = "alvos"
             intervalo = setInterval(() => { timer(); }, 1000)
             textos.pontos = "00"
             textos.porcentagem = "000"
-            textos.tempo = config.tempo*/
+            textos.tempo = config.tempo
 
             break
         case "alvos":
