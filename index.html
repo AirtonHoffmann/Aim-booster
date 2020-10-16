@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AimBosster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+
+    <div class="container">
+        <div class="settings">
+            <h2>Settings</h1>
+            <hr>
+            <h3>Cores</h3>
+            <p> Utilize código hexadecimal paras cores! Voce pode encontralos 
+                <a href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb" target="_blank"> AQUI!</a>
+            </p>
+            <div class="formCor">
+                <div class="form">
+                    <table>
+                        <strong>Alvos</strong> 
+                        <tr>
+                            <td>Primaria:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                        <tr>
+                            <td>Secundaria:</td>
+                            <td><input type="text" name="corS" size="7"> <br /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="form">
+                    <table>
+                        <strong>Fundo</strong> 
+                        <tr>
+                            <td>Primaria:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                        <tr>
+                            <td>Secundaria:</td>
+                            <td><input type="text" name="corS" size="7"> <br /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="form">
+                    <table>
+                        <strong>Letras</strong> 
+                        <tr>
+                            <td>Primaria:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <h3>Jogabilidade</h3>
+            <div class="formCor">
+                <div class="form">
+                    <table>
+                        <strong>Alvos</strong> 
+                        <tr>
+                            <td>Quantidade:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                        <tr>
+                            <td>Tamanho/raio:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="form">
+                    <table> 
+                        <strong>Tempo</strong>
+                        <tr>
+                            <td>Segundo:</td>
+                            <td><input type="text" name="corP" size="7"> <br /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="form">
+                    <table> 
+                        <strong>Audio</strong>
+                        <tr>
+                            <td>Volume:</td>
+                            <td><input type="range" id="volume" name="volume" min="0" max="10">
+                        </tr>
+                        <tr>
+                            <td>Musica:</td>
+                            <td><input type="checkbox" id="musica" name="musica" checked>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="centralizar">
+            <canvas id="screen" width="600" height="600"></canvas>
+        </div>
+    </div>
+
+    <script src="renderScreen.js"></script>
+    <script src="inputs.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
